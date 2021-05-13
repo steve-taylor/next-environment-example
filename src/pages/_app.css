@@ -1,0 +1,15 @@
+:root {
+    --font-heading: sans-serif;
+    --font-body: sans-serif;
+}
+
+html, body {
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+body > :first-child {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
